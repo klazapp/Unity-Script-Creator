@@ -74,14 +74,18 @@ public class ScriptCreator : MonoBehaviour
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     private static string GetCurrentProjectWindowPath()
     {
-        var path = "";
+        var path = "Assets";
 
         //Get currently selected object
         var selectedObject = Selection.activeObject;
 
         //If something is selected
-        if (selectedObject == null) 
+        if (selectedObject == null)
+        {
+            // Focus the Project window
+            EditorUtility.FocusProjectWindow();
             return path;
+        }
         
         //Get path to selected object
         path = AssetDatabase.GetAssetPath(selectedObject);
