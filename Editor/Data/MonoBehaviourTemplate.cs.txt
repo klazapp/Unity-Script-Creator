@@ -9,13 +9,16 @@ namespace com.Klazapp.#SCRIPTNAME#
         #region Variables
         #endregion
         
-        #region Base Flow
+        #region Lifecycle Flow
         #endregion
         
         #region Public Access
         #endregion
         
         #region Modules
+        #endregion
+
+        #region Event Callbacks
         #endregion
         
         #region Interfaces
