@@ -12,5 +12,13 @@
   "category": "Utility",
   "dependencies": {
     "com.klazapp.inspector": "1.0.0"
-  }
+  },
+  "author": {
+      "name": "Klazapp",
+      "email": "klazapp@klazapp.com",
+      "url": "https://www.klazapp.com"
+    },
+    "documentationUrl": "https://github.com/klazapp/Unity-Logger-Public",
+    "changelogUrl": "https://github.com/klazapp/Unity-Logger-Public",
+    "licensesUrl": "https://github.com/klazapp/Unity-Logger-Public"
 }
